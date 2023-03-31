@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #727780;
+}
+
+header {
+    padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    color: white;
+}
+
+header img {
+    display:block;
+    position:absolute;
+    top: 4px;
+    left:440px;
+    height:110px;
+    width:110px;
+    border: 5px solid #ffffff;
+    border-radius:50%;
+}
+
+#headername {
+    display: flex;
+    background: black;
+    width:500px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header div {
+    padding-top: 15px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    margin: 10px;
+}
+
+
+#links {
+    margin-top: -60px;
+    content:"none";
+    text-decoration: "none";
+}
+
+
+.profile-picture {
+    height: 200px;
+    width: 100%;
+    margin-left: 0px;
+    background-image: url("./images/portback.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#subtitle {
+    display: flex;
+    margin-left: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    width: 200px;
+    background-color: darkred;
+    position: relative;
+    margin-top: -3%;
+    color: white;
+}
+
+
+.subheader {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.subheader h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#subtext {
+    display:flex;
+    margin-top:5%;
+    margin-left:15%;
+}
+
+
+#line {
+    border-right:5px solid #ffffff;
+}
+
+
+#paragraph {
+    margin-left:270px;
+    max-width: 800px;
+    font-size: x-large;
+}
+
+
+#work1 {
+    height:188px;
+    width:300px;
+    margin:-11.55%;
+    margin-top:-11.8%;
+    border-radius:10px;
+    border: 10px solid black;
+}
+
+#space1 {
+    margin-left: 325px;
+}
+
+#space2 {
+    margin-left: 100px;
+}
+
+
+.lable {
+    margin-left: 0px;
+    height: 0%;
+    color: #ff0101;
+    font-size: xx-large;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 10%;
+    font-size: x-large;
+}
